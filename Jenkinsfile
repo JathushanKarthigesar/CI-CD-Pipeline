@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Jathushan - Push image to Dockerhub') {
+        stage('Jathushan - Push latest image to Dockerhub') {
             steps {
                 script {
                     sh 'docker push veethinan/my-python-app'
