@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        PATH = "/usr/local/bin:/bin:$PATH"
+    }
+
     stages {
         stage('Jathushan - Build Docker Image') {
             steps {
