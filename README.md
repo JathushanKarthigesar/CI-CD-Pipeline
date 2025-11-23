@@ -1,6 +1,6 @@
 CI/CD Pipeline Project 
 
-- Create a CI/CD pipeline, so that whenever the code in commit in Github it will initiate CI/CD pipeline in Jenkins once it completes successfully then Jenkins will create a Docker image and will push Docker image to Dockerhub.
+- Create a CI/CD pipeline, so that whenever code is committed to GitHub, it will initiate the CI/CD pipeline in Jenkins. Once it completes successfully, Jenkins will create a Docker image and push the Docker image to Docker Hub.
 
 NOTE:
 You can use your localhost and build pipeline manually because you need public IP for webhook. So, I don`t want you to use webhook.
